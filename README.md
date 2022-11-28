@@ -15,7 +15,7 @@ N/A
 
 ## Usage
 
-To use this website, all you need to do is open the console. In the console the user can view the topics we learned in the bootcamp prework. A random topic will also be generated in the console so the user or bootcamp student can have a topic to study for that day or study session. The user can also view notes of HTML, CSS, Git and JavaScript in a organized bulleted list to review and learn information from the prework in bootcamp on the website itself.
+To use this website, all you need to do is open the console. In the console the user can view the topics we learned in the bootcamp prework. A random topic will also be generated in the console so, the user or bootcamp student can have a topic to study for that day or study session. The user can also view notes of HTML, CSS, Git and JavaScript in a organized bulleted list to review and learn information from the prework in bootcamp on the website itself.
 
 ![alt text](assets/images/screenshot.png)
 
