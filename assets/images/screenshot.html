@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/style.css">
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./screenshot_files/style.css">
 
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="header">
       <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
-      <h2>✨ Open the Console to See What is Happening ✨</h2>
+      <img src="./screenshot_files/bowtie-cat.png" alt="Profile image of cat wearing a bow tie.">
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
     <section class="card" id="html-section">
@@ -49,7 +49,7 @@
         <li>The href attribute specifies the location of the external recource</li>
         <li>class attributes allow us to share a CSS rule to any element we choose by assigning the rule to a class attribute with a class selector</li>
         <li>The "." in the ".card" command designites this as a class selector, so any HTML element assigned to the class card will gain these property assignments from CSS</li>
-        <li>Hex #'s or semantic refferences can be used to asign colors</li>
+        <li>Hex #'s or semantic refferences can be used to aaign colors</li>
       
       
 
@@ -93,7 +93,7 @@
         <li>An array is a structure which allows you to store multiple values in a single reference</li>
         <li>An object can be anything, everything in JavaScript is an object and can be stored in a variable</li>
         <li>The '=' assigns a value to a variable</li>
-        <li>Strict equality or '===' performs a test to see if two values are equal& returns a Boolean result</li>
+        <li>Strict equality or '===' performs a test to see if two values are equal&amp; returns a Boolean result</li>
         <li>Not/ Does-not Equal: '!' and '!==' return the logically opposite value of what it percedes</li>
         <li>Conditionals are code structures used to test if an expression returns true or not</li>
         <li>Creating a function defines a block of code that performs a specific task given a unique name</li>
@@ -117,6 +117,45 @@
     <footer>
       <p>I can code!</p>
     </footer>
-    <script src ="./assets/script.js"></script>
-  </body>
-</html>
+    <script src="./screenshot_files/script.js"></script>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
